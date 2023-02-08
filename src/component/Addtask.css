@@ -1,0 +1,33 @@
+:root{
+    --dark:rgb(92, 81, 81);
+    --darken:rgb(22, 20, 20);
+    --darkest:black;
+    --gray:rgb(75, 70, 70);
+    --light:white;
+    --pink:rgb(189, 64, 85);
+    --purple:rgb(67, 10, 100);
+
+}
+.butt{
+    background-image: linear-gradient(to right, var(--darkest),var(--pink),var(--purple));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.size{
+    font-size: larger;
+    font-weight: 500;
+}
+.remove{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;   
+}
+.coloringFooter{
+    background-color:"black" ; 
+    color:"white"
+}
+.cardColoring{
+    background-color:#625858;
+    color:"White"
+}
