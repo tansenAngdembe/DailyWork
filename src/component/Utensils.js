@@ -52,7 +52,7 @@ const alertMessage=(type,msg)=>{
             <div className="container">
                 <textarea className="form-control" value={text} onChange={textChange} placeholder="Enter your text and modify it." style={{ height: "300px" }}></textarea>
             </div>
-            <div className="container mt-4  mb-3  ">
+            <div className="container mt-4  mb-3 mediaQuery ">
                 <button  disabled={text.length===0} type="button" onClick={upperCase} className="btn btn-primary mx-2">ToUpperCase</button>
                 <button  disabled={text.length===0} type="button" onClick={lowerCase} className="btn btn-primary mx-2">ToLowerCase</button>
                 <button  disabled={text.length===0} type="button" onClick={copyText} className="btn btn-primary mx-2">Copy Text</button>

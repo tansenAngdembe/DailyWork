@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media screen and (max-width: 800px){
+  .mediaQuery{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1rem;
+
+  }
+}
